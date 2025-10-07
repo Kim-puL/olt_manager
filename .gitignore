@@ -9,6 +9,7 @@ __pycache__/
 .mypy_cache/
 build/
 dist/
+*debug_
 
 # Databases
 olt_manager.db
@@ -24,3 +25,6 @@ celerybeat-schedule*
 # Logs
 logs/
 *.log
+
+# AI
+GEMINI.md
