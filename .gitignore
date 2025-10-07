@@ -10,6 +10,7 @@ __pycache__/
 build/
 dist/
 *debug_
+.ruff_cache
 
 # Databases
 olt_manager.db

@@ -34,7 +34,7 @@ Aplikasi ini dibangun dengan desain modular berbasis vendor. Setiap vendor OLT m
 
 1.  **Clone repositori:**
     ```bash
-    git clone https://github.com/username-anda/olt-manager.git
+    git clone https://github.com/Kim-puL/olt-manager.git
     cd olt-manager
     ```
 

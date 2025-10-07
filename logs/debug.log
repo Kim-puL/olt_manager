@@ -23684,3 +23684,252 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 2025-10-07 11:45:36,414 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
 2025-10-07 11:45:36,451 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
 2025-10-07 11:45:37,072 - logger_config - INFO - Application startup complete. OLT status checking is handled by Celery Beat.
+2025-10-07 12:13:48,012 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-10-07 12:13:48,013 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-10-07 12:13:48,013 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-10-07 12:13:48,050 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-10-07 12:13:50,865 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-10-07 12:13:50,866 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-10-07 12:13:50,866 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-10-07 12:13:51,055 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-10-07 12:13:51,056 - celery.utils.functional - DEBUG - 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2025-10-07 12:13:51,057 - celery.utils.functional - DEBUG - 
+def run_snmp_sync(olt_id):
+    return 1
+
+2025-10-07 12:13:51,057 - celery.utils.functional - DEBUG - 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2025-10-07 12:13:51,058 - celery.utils.functional - DEBUG - 
+def chunks(task, it, n):
+    return 1
+
+2025-10-07 12:13:51,058 - celery.utils.functional - DEBUG - 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2025-10-07 12:13:51,059 - celery.utils.functional - DEBUG - 
+def check_expired_subscriptions():
+    return 1
+
+2025-10-07 12:13:51,059 - celery.utils.functional - DEBUG - 
+def run_ssh_telnet_sync(olt_id):
+    return 1
+
+2025-10-07 12:13:51,060 - celery.utils.functional - DEBUG - 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2025-10-07 12:13:51,061 - celery.utils.functional - DEBUG - 
+def check_all_olts_status():
+    return 1
+
+2025-10-07 12:13:51,061 - celery.utils.functional - DEBUG - 
+def xmap(task, it):
+    return 1
+
+2025-10-07 12:13:51,062 - celery.utils.functional - DEBUG - 
+def backend_cleanup():
+    return 1
+
+2025-10-07 12:13:51,062 - celery.utils.functional - DEBUG - 
+def sync_all_olts_data():
+    return 1
+
+2025-10-07 12:13:51,062 - celery.utils.functional - DEBUG - 
+def chain(*args, **kwargs):
+    return 1
+
+2025-10-07 12:13:51,063 - celery.utils.functional - DEBUG - 
+def xstarmap(task, it):
+    return 1
+
+2025-10-07 12:13:53,036 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-10-07 12:13:53,036 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-10-07 12:13:53,036 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-10-07 12:13:53,232 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-10-07 12:13:53,234 - celery.utils.functional - DEBUG - 
+def xmap(task, it):
+    return 1
+
+2025-10-07 12:13:53,234 - celery.utils.functional - DEBUG - 
+def backend_cleanup():
+    return 1
+
+2025-10-07 12:13:53,235 - celery.utils.functional - DEBUG - 
+def run_ssh_telnet_sync(olt_id):
+    return 1
+
+2025-10-07 12:13:53,235 - celery.utils.functional - DEBUG - 
+def chain(*args, **kwargs):
+    return 1
+
+2025-10-07 12:13:53,236 - celery.utils.functional - DEBUG - 
+def xstarmap(task, it):
+    return 1
+
+2025-10-07 12:13:53,236 - celery.utils.functional - DEBUG - 
+def sync_all_olts_data():
+    return 1
+
+2025-10-07 12:13:53,237 - celery.utils.functional - DEBUG - 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2025-10-07 12:13:53,237 - celery.utils.functional - DEBUG - 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2025-10-07 12:13:53,238 - celery.utils.functional - DEBUG - 
+def check_all_olts_status():
+    return 1
+
+2025-10-07 12:13:53,238 - celery.utils.functional - DEBUG - 
+def chunks(task, it, n):
+    return 1
+
+2025-10-07 12:13:53,239 - celery.utils.functional - DEBUG - 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2025-10-07 12:13:53,240 - celery.utils.functional - DEBUG - 
+def run_snmp_sync(olt_id):
+    return 1
+
+2025-10-07 12:13:53,240 - celery.utils.functional - DEBUG - 
+def check_expired_subscriptions():
+    return 1
+
+2025-10-07 12:13:53,241 - celery.utils.functional - DEBUG - 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2025-10-07 12:15:21,581 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-10-07 12:15:21,582 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-10-07 12:15:21,582 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-10-07 12:15:21,623 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-10-07 12:15:22,245 - logger_config - INFO - Application startup complete. OLT status checking is handled by Celery Beat.
+2025-10-07 12:15:27,409 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-10-07 12:15:27,410 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-10-07 12:15:27,410 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-10-07 12:15:27,606 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-10-07 12:15:27,608 - celery.utils.functional - DEBUG - 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2025-10-07 12:15:27,608 - celery.utils.functional - DEBUG - 
+def run_snmp_sync(olt_id):
+    return 1
+
+2025-10-07 12:15:27,609 - celery.utils.functional - DEBUG - 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2025-10-07 12:15:27,609 - celery.utils.functional - DEBUG - 
+def chunks(task, it, n):
+    return 1
+
+2025-10-07 12:15:27,610 - celery.utils.functional - DEBUG - 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2025-10-07 12:15:27,610 - celery.utils.functional - DEBUG - 
+def check_expired_subscriptions():
+    return 1
+
+2025-10-07 12:15:27,611 - celery.utils.functional - DEBUG - 
+def run_ssh_telnet_sync(olt_id):
+    return 1
+
+2025-10-07 12:15:27,612 - celery.utils.functional - DEBUG - 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2025-10-07 12:15:27,612 - celery.utils.functional - DEBUG - 
+def check_all_olts_status():
+    return 1
+
+2025-10-07 12:15:27,613 - celery.utils.functional - DEBUG - 
+def xmap(task, it):
+    return 1
+
+2025-10-07 12:15:27,614 - celery.utils.functional - DEBUG - 
+def backend_cleanup():
+    return 1
+
+2025-10-07 12:15:27,614 - celery.utils.functional - DEBUG - 
+def sync_all_olts_data():
+    return 1
+
+2025-10-07 12:15:27,615 - celery.utils.functional - DEBUG - 
+def chain(*args, **kwargs):
+    return 1
+
+2025-10-07 12:15:27,615 - celery.utils.functional - DEBUG - 
+def xstarmap(task, it):
+    return 1
+
+2025-10-07 12:15:28,868 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-10-07 12:15:28,870 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-10-07 12:15:28,870 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-10-07 12:15:29,066 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-10-07 12:15:29,067 - celery.utils.functional - DEBUG - 
+def xmap(task, it):
+    return 1
+
+2025-10-07 12:15:29,068 - celery.utils.functional - DEBUG - 
+def backend_cleanup():
+    return 1
+
+2025-10-07 12:15:29,068 - celery.utils.functional - DEBUG - 
+def run_ssh_telnet_sync(olt_id):
+    return 1
+
+2025-10-07 12:15:29,068 - celery.utils.functional - DEBUG - 
+def chain(*args, **kwargs):
+    return 1
+
+2025-10-07 12:15:29,069 - celery.utils.functional - DEBUG - 
+def xstarmap(task, it):
+    return 1
+
+2025-10-07 12:15:29,069 - celery.utils.functional - DEBUG - 
+def sync_all_olts_data():
+    return 1
+
+2025-10-07 12:15:29,070 - celery.utils.functional - DEBUG - 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2025-10-07 12:15:29,070 - celery.utils.functional - DEBUG - 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2025-10-07 12:15:29,071 - celery.utils.functional - DEBUG - 
+def check_all_olts_status():
+    return 1
+
+2025-10-07 12:15:29,072 - celery.utils.functional - DEBUG - 
+def chunks(task, it, n):
+    return 1
+
+2025-10-07 12:15:29,072 - celery.utils.functional - DEBUG - 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2025-10-07 12:15:29,073 - celery.utils.functional - DEBUG - 
+def run_snmp_sync(olt_id):
+    return 1
+
+2025-10-07 12:15:29,073 - celery.utils.functional - DEBUG - 
+def check_expired_subscriptions():
+    return 1
+
+2025-10-07 12:15:29,074 - celery.utils.functional - DEBUG - 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
