@@ -23679,3 +23679,8 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 2025-10-07 11:45:33,184 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
 2025-10-07 11:45:33,221 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
 2025-10-07 11:45:33,870 - logger_config - INFO - Application startup complete. OLT status checking is handled by Celery Beat.
+2025-10-07 11:45:36,413 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-10-07 11:45:36,414 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-10-07 11:45:36,414 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-10-07 11:45:36,451 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-10-07 11:45:37,072 - logger_config - INFO - Application startup complete. OLT status checking is handled by Celery Beat.
