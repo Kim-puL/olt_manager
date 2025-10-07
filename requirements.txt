@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+slowapi
+sqlalchemy
+python-dotenv
+celery
+redis
+flower
+python-jose[cryptography]
+passlib[bcrypt]
+alembic
+psycopg2-binary
+asyncpg
+stripe

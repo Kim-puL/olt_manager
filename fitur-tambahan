@@ -1,0 +1,63 @@
+1. Antarmuka Pengguna (Frontend Web):
+   2. Provisioning & Aksi Manajemen ONU:
+   3. Notifikasi & Peringatan (Alerting):
+   4. Dasbor Visual & Pelaporan:
+   5. Pencatatan Data Historis:
+   6. Kontrol Akses Berbasis Peran (RBAC) yang Lebih Detail:
+   7. Migrasi Database dengan Alembic:
+
+      Mulai sekarang, setiap kali Anda ingin mengubah struktur database (misalnya menambah kolom baru di models.py), alur kerjanya adalah:
+
+      1.  Ubah Model Anda: Lakukan perubahan yang Anda inginkan pada file database/models.py.
+      2.  Buat Revisi Baru: Jalankan perintah berikut di terminal:
+
+      `bash
+            alembic revision --autogenerate -m "Deskripsi perubahan Anda"
+            `
+            Contoh: alembic revision --autogenerate -m "Add last_login to User model"
+      3.  Terapkan Revisi: Jalankan perintah berikut untuk menerapkan perubahan tersebut ke database:
+
+      `bash
+            alembic upgrade head
+            `
+
+
+      Dengan cara ini, semua perubahan pada skema database Anda akan tercatat, aman, dan terkendali.
+   8. Pekerja Latar Belakang (Background Worker):
+      Apa yang Telah Saya Lakukan:
+         1. Instal & Jalankan Redis:
+         2. Jalankan Celery Worker:
+      `bash
+               celery -A celery_config.celery_app worker -l info -P solo
+               `
+            *   Biarkan terminal ini juga tetap terbuka. Ini adalah "pekerja" Anda.
+
+
+         3. Jalankan Aplikasi FastAPI:
+            Sekarang Anda memiliki tiga proses yang berjalan: Redis, Celery Worker, dan server FastAPI. Ketika Anda memanggil API sinkronisasi, Anda akan melihat log aktivitas muncul di terminal 
+            Celery Worker.
+   9. Penambahan Unit Test:
+   10. Rate Limiting pada API:
+      1. Instalasi & Inisialisasi: Saya telah menambahkan slowapi ke proyek dan
+         mengkonfigurasinya di main.py untuk menggunakan alamat IP sebagai dasar pembatasan.
+         Mulai sekarang, jika ada pengguna atau alamat IP yang mencoba mengakses sebuah endpoint
+         lebih sering dari batas yang telah ditentukan, server tidak akan memproses permintaan
+         tersebut. Sebaliknya, server akan secara otomatis merespons dengan status HTTP 429 Too
+         Many Requests.
+
+
+         Ini secara efektif melindungi server Anda dari serangan dasar dan penyalahgunaan sumber
+         daya. Tidak ada langkah lebih lanjut yang perlu Anda lakukan; fitur ini sekarang sudah
+         terintegrasi dan akan berjalan secara otomatis setiap kali Anda menjalankan aplikasi
+         FastAPI Anda.
+
+
+FITUR SAAS
+
+1. Manajemen Pengguna & Role-Based Access Control (RBAC)
+2. Dashboard & Laporan Historis
+3. Sistem Peringatan & Notifikasi (Alerting)
+4. Provisioning Otomatis & Aksi Massal
+5. Billing & Manajemen Langganan
+6. Audit Log (Jejak Audit)
+7. API untuk Pelanggan (Customer-Facing API)

@@ -1,0 +1,22 @@
+[Unit]
+Description=Celery Worker for OLT Manager
+After=network.target
+
+[Service]
+# Ganti 'user' dengan username non-root Anda di VPS
+User=user
+# Ganti '/path/to/your/project' dengan path absolut ke direktori proyek Anda di VPS
+WorkingDirectory=/path/to/your/project
+# Path ke environment Python Anda (jika menggunakan virtualenv)
+# ExecStart=/path/to/your/project/venv/bin/celery -A celery_config.celery_app worker -l info
+ExecStart=celery -A celery_config.celery_app worker -l info
+
+# Pastikan file .env ada di WorkingDirectory
+EnvironmentFile=/path/to/your/project/.env
+Restart=always
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=celery-worker-olt-manager
+
+[Install]
+WantedBy=multi-user.target

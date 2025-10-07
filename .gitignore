@@ -1,0 +1,26 @@
+# Environments
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+
+# Databases
+olt_manager.db
+olt_manager copy.db
+
+# Celery
+celerybeat-schedule*
+
+# Caches
+.ruff_cache/
+.devdbrc
+
+# Logs
+logs/
+*.log

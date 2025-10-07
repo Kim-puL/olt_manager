@@ -1,0 +1,22 @@
+[Unit]
+Description=Gunicorn instance to serve OLT Manager API
+After=network.target
+
+[Service]
+# Ganti 'user' dengan username non-root Anda di VPS
+User=user
+# Ganti '/path/to/your/project' dengan path absolut ke direktori proyek Anda di VPS
+WorkingDirectory=/path/to/your/project
+# Path ke environment Python Anda (jika menggunakan virtualenv)
+# ExecStart=/path/to/your/project/venv/bin/gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app
+ExecStart=gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app
+
+# Pastikan file .env ada di WorkingDirectory
+EnvironmentFile=/path/to/your/project/.env
+Restart=always
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=gunicorn-olt-manager
+
+[Install]
+WantedBy=multi-user.target
